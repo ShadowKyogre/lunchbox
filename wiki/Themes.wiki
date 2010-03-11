@@ -36,12 +36,3 @@ The popup menu files provide the background for all the popup menus in Lunchbox 
 
 Lunchbox version 0.1 does not support hover mode but future versions will.
 Future versions will also allow different windows types to have a different look, so dialog boxes can stand out from other windows and so on.
-
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
