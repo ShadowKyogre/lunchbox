@@ -1,0 +1,47 @@
+#summary A short guide about creating Themes for the Lunchbox Window Manager.
+#labels Featured
+
+= Introduction =
+
+Creating a theme for lunchbox is relatively straight forward.  The first step is to copy an existing theme (such as "original") which can be found in the folder "~/.lunchbox/themes/original" once lunchbox is installed correctly.  Simply copy the whole folder and rename it.  The name of the folder is the identifier of the theme so when you launch Lunchbox to select the theme just write that name after the command. For example to load the minimal theme run:
+
+{{{lunchbox minimal}}}
+
+Each theme contains the following files as a minimum:
+
+{{{
+ fonts
+ menubar_active.png
+ menubar_inactive.png
+ menubar_normal.png
+ menubar_regions
+ popup_menu_active_focussed.png
+ popup_menu_active_hover.png
+ popup_menu_active.png
+ popup_menu_inactive.png
+ popup_menu_normal_focussed.png
+ popup_menu_normal_hover.png
+ popup_menu_normal.png
+ popup_menu_regions
+ program_frame_active_focussed.png
+ program_frame_active.png
+ program_frame_inactive.png
+ program_frame_normal_focussed.png
+ program_frame_normal.png
+ program_frame_regions
+}}}
+
+To change the appearance of a component in a particular state you can simply edit these image files directly with an image editor provided you don't move or change the width or height of the widgets or the image itself.  For example, to change the way the buttons on all frames look when they are pressed change the "program_frame_active.png" image and the "program_frame_active_focussed.png" image.
+The popup menu files provide the background for all the popup menus in Lunchbox and the menu bar files provide the background for the menubar items.
+
+Lunchbox version 0.1 does not support hover mode but future versions will.
+Future versions will also allow different windows types to have a different look, so dialog boxes can stand out from other windows and so on.
+
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
