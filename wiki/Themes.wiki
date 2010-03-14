@@ -1,4 +1,4 @@
-#summary A short guide about creating Themes for the Lunchbox Window Manager.
+#summary A short guide to creating new themes for the Lunchbox Window Manager.
 #labels Featured
 
 = Introduction =
