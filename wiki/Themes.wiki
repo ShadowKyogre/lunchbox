@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Creating a theme for lunchbox is relatively straight forward.  The first step is to copy an existing theme (such as "original") which can be found in the folder "~/.lunchbox/themes/original" once lunchbox is installed correctly.  Simply copy the whole folder and rename it.  The name of the folder is the identifier of the theme so when you launch Lunchbox to select the theme just write that name after the command. For example to load the minimal theme run:
+Creating a theme for lunchbox is relatively straight forward.  The first step is to copy an existing theme (such as "original") which can be found in the folder "/usr/local/lunchbox/themes/original" once lunchbox is installed correctly.  Simply make a copy of folder in the same place and rename it.  The name of the folder is the identifier of the theme so when you launch Lunchbox to select the theme write that name after the command. For example to load the minimal theme run:
 
 {{{lunchbox minimal}}}
 
