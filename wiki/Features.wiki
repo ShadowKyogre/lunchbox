@@ -4,8 +4,8 @@
 
 This webpage is a more detailed description of all the features of the lunchbox window manager.
 
-* Alt+Click and then moving the mouse. This can be used to grip and move windows by clicking anywhere on them. This is an idea borrowed by several other Linux Window Managers such as icewm and metacity.  It is particularly useful when a dialog box is larger than the screen and you need to move it further off the top of the screen to click the OK or Cancel button.
+  * Alt+Click and then moving the mouse. This can be used to grip and move windows by clicking anywhere on them. This is an idea borrowed by several other Linux Window Managers such as icewm and metacity.  It is particularly useful when a dialog box is larger than the screen and you need to move it further off the top of the screen to click the OK or Cancel button.
 
-* Clicking and Moving the Title Menu or Mode Menu.  This still allows moving the window, allowing narrow windows without any empty space on their title bars to still be moved around the screen.  People will probably accidentally discover this.
+  * Clicking and Moving the Title Menu or Mode Menu.  This still allows moving the window, allowing narrow windows without any empty space on their title bars to still be moved around the screen.  People will probably accidentally discover this.
 
-* Theming is fun and easy in luchmbox.  Look at the [http://code.google.com/p/lunchbox/wiki/Themes]theming wiki.
+  * Theming is fun and easy in luchmbox.  Look at the [http://code.google.com/p/lunchbox/wiki/Themes]theming wiki.
