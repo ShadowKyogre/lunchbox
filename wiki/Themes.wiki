@@ -7,7 +7,7 @@ Creating a theme for lunchbox is relatively straight forward.  The first step is
 
 {{{lunchbox minimal}}}
 
-Each theme contains the following files as a minimum:
+Each theme contains the following files and possibly a few extra ones:
 
 {{{
  fonts
@@ -34,7 +34,7 @@ Each theme contains the following files as a minimum:
 To change the appearance of a component in a particular state you can simply edit these image files directly with an image editor provided you don't move or change the size or position of the widgets or the image itself.  For example, to change the way the buttons on all frames look when they are pressed change the "program_frame_active.png" image and the "program_frame_active_focussed.png" image.
 The popup menu files provide the background for all the popup menus in Lunchbox and the menu bar files provide the background for the menubar items.
 
-Lunchbox version does not support hover mode but future versions will.
+Lunchbox currently does not support hover mode but future versions will so to make your theme future compatible it is recommended that you make 
 
 The next most important part of the theme is the region file.  If you just want to change the look of widgets and not their size or position, you don't need to do this.
 
