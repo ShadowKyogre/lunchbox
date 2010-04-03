@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Creating a theme for lunchbox is relatively straight forward.  The first step is to copy an existing theme (such as "original") which can be found in the folder "/usr/local/lunchbox/themes/original" once lunchbox is installed correctly.  Simply make a copy of folder in the same place and rename it.  The name of the folder is the identifier of the theme so when you launch Lunchbox to select the theme write that name after the command. For example to load the minimal theme run:
+Creating a theme for lunchbox is relatively straight forward.  The first step is to copy an existing theme (such as "original") which can be found in the folder "/usr/local/lunchbox/themes/original".  The name of the folder is used as the name of the theme so when you launch Lunchbox to select the theme write that name after the command. For example to load the slim-line "minimal" theme run:
 
 {{{lunchbox minimal}}}
 
@@ -34,8 +34,7 @@ Each theme contains the following files as a minimum:
 To change the appearance of a component in a particular state you can simply edit these image files directly with an image editor provided you don't move or change the size or position of the widgets or the image itself.  For example, to change the way the buttons on all frames look when they are pressed change the "program_frame_active.png" image and the "program_frame_active_focussed.png" image.
 The popup menu files provide the background for all the popup menus in Lunchbox and the menu bar files provide the background for the menubar items.
 
-Lunchbox version 0.1 does not support hover mode but future versions will.
-Future versions will also allow different windows types to have a different look, so dialog boxes can stand out from other windows and so on.
+Lunchbox version does not support hover mode but future versions will.
 
 The next most important part of the theme is the region file.  If you just want to change the look of widgets and not their size or position, you don't need to do this.
 
