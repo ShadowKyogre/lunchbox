@@ -10,7 +10,7 @@ This webpage is a more detailed description of all the features of the lunchbox 
 
   * Theming is fun and easy in Luchbox.  Look it up at [http://code.google.com/p/lunchbox/wiki/Themes]
 
-  * The frame can be double clicked to maximize the frame.  If the frame is tiled, it is placed into the largest available space.
+  * The frame can be double clicked to maximize the frame.  If the frame is tiled, it is placed into the largest available space.  Frames must be resized manually to restore them to their previous size.
 
 
 
