@@ -36,7 +36,7 @@ The popup menu files provide the background for all the popup menus in Lunchbox 
 
 Lunchbox currently does not support hover mode but future versions will.  To make your theme future proof include the additional the hover variations of each window type.
 
-The next most important part of the theme is the region file.  If you want to change the size or position of a widget for a particular frame type, you need to edit its corresponding theme file.
+The next most important part of the theme is the region file.  If you want to change the size or position of a widget for a particular frame type, you need to edit its corresponding regions file.
 
 Each row in each region file starts with an identifier for the widget and is then followed by 4 integers.  These correspond to the x, y, width and height of each widget.
 If the numbers are less than zero, the width of the entire component is added to that integer.  In this way, values "wrap" around and can specify if widgets should be left or right aligned (or top or bottom if it is the y coordinate). It is also used to indicate what remainder of the window width or height they should be.
