@@ -1,5 +1,5 @@
+#summary Comment on Lunchbox
 #labels Featured
-#Comment on Lunchbox
 = Introduction =
 
 If you've tried the Lunchbox Window Manager please comment here! Both positive and negative feedback will be seriously considered by the lead developer.
