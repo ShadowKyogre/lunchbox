@@ -1,0 +1,39 @@
+#summary User Guide
+
+= Introduction =
+
+A short guide to using the Lunchbox Window Manager - not complete yet.
+
+= Installation =
+
+Download the latest tarball and extract it into a temporary folder.
+Ensure you have development headers for the cairo graphics library and xcursor, as well as the X11 headers which both the cairo graphics library and xcursor depend upon.
+
+From the commandline, traverse to the downloaded extracted files and run:
+{{{make}}}
+
+If this doesn't report any errors you can install it by running the following command as root:
+{{{make install}}}
+which simply copies the binary to {{{/usr/bin}}} and the theme files (text and images) to {{{/usr/local/share/lunchbox}}}
+
+Once installed, the easiest way to run the window manager is by logging into a failsafe session (a plain X session with only an instance of xterm open) and simply running:
+{{{lunchbox &}}}
+
+You should immediately see a frame appear around your xterm session and a menubar appear at the bottom of the screen.
+
+If you want to quit lunchbox, send it the SIGINT signal and then trigger some kind of X event by clicking on the frame somewhere or running another program.
+
+A commandline to do this would be:
+{{{pkill -INT lunchbox && sleep 1 && xterm &}}}
+
+The advantage of this is that windows will have had their EWMH state hints reset and won't all be minimized if you load another window manager. It opens another xterm instance to send lunchbox another X event to get it to wake up.
+
+= Changing Programs =
+
+Proceed to open some more programs from the command line.  If you normally run a GNOME desktop run:
+{{{gnome-settings-daemon & nautilus & }}}
+
+This will load your theme and open up the nautilus desktop.  In lunchbox, every program has it's own workspace, which you can now try out by clicking the Program menu in the bottom Left Hand Side (LHS) of the screen. There should be an entry for XTerm and another entry for Nautilus.  Click on the entry for Nautilus.  The screen will change to show your normal desktop icons. If you right click on the desktop, the nautilus context menu will appear and you can add folders and create files as you normally would.
+
+
+
