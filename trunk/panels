@@ -1,0 +1,13 @@
+Panel Support.
+
+Need to update work area.
+Need to listen to panel hints to know where to put the panels.
+When panels change, need to retile everything
+When a panel is not at an edge, make it floating.
+
+Advantages of the min/max approach 
+  -  Get to reuse drop_frame code easily and resize_tiling_frame code easily.
+
+Need to make floating windows not overlap the panels after being moved or resized. 
+   -- DONE
+
