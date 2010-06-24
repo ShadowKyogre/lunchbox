@@ -15,7 +15,7 @@ which simply copies the binary to {{{/usr/bin}}} and the theme files (text and i
 Once installed, the easiest way to run the window manager is by logging into a failsafe session (a plain X session with only an instance of xterm open) and simply running:
 {{{lunchbox &}}}
 
-You should immediately see a frame appear around your xterm session and a menubar appear at the bottom of the screen.
+You should immediately see a frame appear around your xterm session and a menubar appear at the bottom of the screen.  There is no launcher included with the window manager, so remember to open one otherwise you won't be able to do anything without switching back to the commandline.
 
 If you want to quit lunchbox, send it the SIGINT signal and then trigger some kind of X event by clicking on the frame somewhere or running another program.
 
