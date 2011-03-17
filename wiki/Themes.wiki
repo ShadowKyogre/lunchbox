@@ -65,3 +65,5 @@ active_focussed_hover  b  1.0   1.0   1.0   1.0
 
 
 The three different font sizes are specified in the first three lines (as well as the font name).  The font sizes are in points. The lines after that specify how fonts should be drawn on the different window types, whether they should be "normal" (n) or "bold" (b).  The four numbers are floating point numbers between 0 and 1 that correspond the amount of red, green, blue and transparency (the alpha channel).  
+
+Finally, once you have perfected your new theme please leave a comment with a link. Good themes can be included in the installation package.
